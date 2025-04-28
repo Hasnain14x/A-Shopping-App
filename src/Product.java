@@ -1,9 +1,9 @@
 public class Product {
-    private int productId;
-    private String name;
-    private String description;
-    private double price;
-    private String seller;
+     int productId;
+     String name;
+     String description;
+     double price;
+     String seller;
 
     public Product(int productId, String name, String description, double price, String seller) {
         this.productId = productId;

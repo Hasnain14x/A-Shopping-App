@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class Inventory {
-    private Map<Integer, Product> products = new HashMap<>();
+    Map<Integer, Product> products = new HashMap<>();
 
     public void addProduct(Product product) {
         products.put(product.getProductId(), product);
